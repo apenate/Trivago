@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Trivago Test Suite" verbose="10" data-provider-thread-count="5">
+
+	<test name="UI Tests">
+		<classes>
+			<class name="com.trivago.ui.WebTests" />
+		</classes>
+	</test>
+
+	<test name="API Tests">
+		<classes>
+			<class name="com.trivago.api.APITests" />
+		</classes>
+	</test>
+</suite>
